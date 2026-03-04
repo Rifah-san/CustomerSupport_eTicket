@@ -24,7 +24,7 @@ const Ticket = ({ ticket , updateProgress, handleStatus}) => {
       <div className="flex align-middle justify-between">
         <div className="flex align-middle gap-3 text-gray-500">
           <p>#{ticket.id}</p>
-          <p className="text-yellow-200">{ticket.priority}</p>
+          <p className={`${ticket.priority==="High"?"text-red-400":(ticket.priority==="Low"?"text-green-400": "text-yellow-400")}`}>{ticket.priority}</p>
         </div>
         <div className="flex align-middle gap-3 text-gray-500">
           <p>{ticket.customer}</p>

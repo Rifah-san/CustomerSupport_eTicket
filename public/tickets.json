@@ -4,7 +4,7 @@
     "title": "Payment Gateway Timeout",
     "description": "Customers reporting 504 errors when attempting to checkout using Stripe.",
     "customer": "Global Mart",
-    "priority": "Critical",
+    "priority": "High",
     "status": "In Progress",
     "createdAt": "2026-03-04"
   },
@@ -85,7 +85,7 @@
     "title": "Security Vulnerability Patch",
     "description": "CVE-2026-1234 requires an immediate update to the Node.js runtime version.",
     "customer": "Internal",
-    "priority": "Critical",
+    "priority": "High",
     "status": "In Progress",
     "createdAt": "2026-03-04"
   },

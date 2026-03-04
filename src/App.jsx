@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Nav></Nav>
-      <div className="flex align-middle justify-center w-full gap-6 px-35 py-10">
+      <div className="flex align-middle justify-center w-full gap-5 px-35 py-10">
         <ProgressBanner progress={progress}></ProgressBanner>
         <ResolvedBanner></ResolvedBanner>
       </div>
