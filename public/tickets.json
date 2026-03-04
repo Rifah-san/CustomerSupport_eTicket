@@ -1,0 +1,110 @@
+[
+  {
+    "id": "TIC-101",
+    "title": "Payment Gateway Timeout",
+    "description": "Customers reporting 504 errors when attempting to checkout using Stripe.",
+    "customer": "Global Mart",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T08:30:00Z"
+  },
+  {
+    "id": "TIC-102",
+    "title": "Login Loop on Mobile",
+    "description": "iOS users are stuck in a redirect loop after entering correct credentials.",
+    "customer": "TechFlow Inc.",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04T09:15:00Z"
+  },
+  {
+    "id": "TIC-103",
+    "title": "Update Documentation for API v2",
+    "description": "The endpoint documentation for /users/update is missing the 'role' parameter.",
+    "customer": "Internal",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-01T14:00:00Z"
+  },
+  {
+    "id": "TIC-104",
+    "title": "Broken CSS on Dashboard",
+    "description": "The navigation bar overlaps with the main content on screen widths below 1200px.",
+    "customer": "Creative Agency",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04T10:45:00Z"
+  },
+  {
+    "id": "TIC-105",
+    "title": "Database Optimization",
+    "description": "Slow query logs indicate the 'orders' table needs new indexing.",
+    "customer": "Internal",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-03T16:20:00Z"
+  },
+  {
+    "id": "TIC-106",
+    "title": "Export to CSV Failing",
+    "description": "The 'Export' button does nothing when the dataset exceeds 5,000 rows.",
+    "customer": "DataViz Corp",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-04T11:05:00Z"
+  },
+  {
+    "id": "TIC-107",
+    "title": "Password Reset Email Delay",
+    "description": "Users report it takes up to 20 minutes to receive the reset link.",
+    "customer": "Standard User Base",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T12:00:00Z"
+  },
+  {
+    "id": "TIC-108",
+    "title": "Typo in Welcome Email",
+    "description": "The word 'Subscription' is misspelled in the footer.",
+    "customer": "Marketing Team",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-02-28T09:00:00Z"
+  },
+  {
+    "id": "TIC-109",
+    "title": "Search Filter Not Persistent",
+    "description": "Refreshing the page clears all active filters in the admin panel.",
+    "customer": "Operations Dept",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-04T13:30:00Z"
+  },
+  {
+    "id": "TIC-110",
+    "title": "Security Vulnerability Patch",
+    "description": "CVE-2026-1234 requires an immediate update to the Node.js runtime version.",
+    "customer": "Internal",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2026-03-04T14:10:00Z"
+  },
+  {
+    "id": "TIC-111",
+    "title": "Bulk Upload Error",
+    "description": "Intermittent 400 errors when uploading more than 10 files at once.",
+    "customer": "Logistics Pro",
+    "priority": "Medium",
+    "status": "Closed",
+    "createdAt": "2026-03-02T10:00:00Z"
+  },
+  {
+    "id": "TIC-112",
+    "title": "Dark Mode Toggle Missing",
+    "description": "The dark mode switch has disappeared from the user settings profile.",
+    "customer": "TechFlow Inc.",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2026-03-04T15:45:00Z"
+  }
+]
