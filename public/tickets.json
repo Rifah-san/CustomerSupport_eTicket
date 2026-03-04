@@ -23,7 +23,7 @@
     "description": "The endpoint documentation for /users/update is missing the 'role' parameter.",
     "customer": "Internal",
     "priority": "Low",
-    "status": "Closed",
+    "status": "Open",
     "createdAt": "2026-03-01"
   },
   {
@@ -68,7 +68,7 @@
     "description": "The word 'Subscription' is misspelled in the footer.",
     "customer": "Marketing Team",
     "priority": "Low",
-    "status": "Closed",
+    "status": "In Progress",
     "createdAt": "2026-02-28"
   },
   {
@@ -95,7 +95,7 @@
     "description": "Intermittent 400 errors when uploading more than 10 files at once.",
     "customer": "Logistics Pro",
     "priority": "Medium",
-    "status": "Closed",
+    "status": "In Progress",
     "createdAt": "2026-03-02"
   },
   {

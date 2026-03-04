@@ -3,7 +3,7 @@ import React from "react";
 const Nav = () => {
   return (
     <div>
-      <div class="navbar bg-base-100 shadow-sm lg:px-20">
+      <div class="navbar bg-base-100 shadow-sm lg:px-35">
         <div class="navbar-start">
           <a class="btn btn-ghost text-xl">CS-Ticket System</a>
         </div>

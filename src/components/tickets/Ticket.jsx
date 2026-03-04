@@ -4,12 +4,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays as calendar } from "@fortawesome/free-regular-svg-icons";
 
 const Ticket = ({ ticket }) => {
+    const handleCardClick = () =>{
+        alert('Added To Task Status Section.');
+    } 
   return (
-    <div className="card flex flex-col align-middle gap-3 shadow-md">
+    <div onClick={handleCardClick} className="card flex flex-col align-middle gap-3 shadow-md">
       <div className="flex align-middle justify-between">
         <h1 className="font-semibold">{ticket.title}</h1>
-        <p className="badge p-3 bg-green-200 rounded-lg flex align-middle gap-1 justify-center">
-          <span className="p-1 bg-green-700 rounded-full"></span>
+        <p className={`${ticket.status==='Open'?  "bg-green-200" : "bg-yellow-100" } p-4 badge rounded-2xl flex align-middle gap-1.5 justify-center`}>
+          <span className={`p-1.5 ${ticket.status==='Open'?  "bg-green-700" : "bg-yellow-500" } rounded-full`}></span>
           {ticket.status}
         </p>
       </div>
