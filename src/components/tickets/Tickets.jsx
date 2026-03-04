@@ -2,7 +2,7 @@ import React from 'react';
 import { use } from 'react'
 import Ticket from './Ticket';
 
-const Tickets = ({promiseData}) => {
+const Tickets = ({promiseData,updateProgress,handleStatus}) => {
     const tickets = use(promiseData);
     console.log(tickets);
     return (
@@ -12,7 +12,7 @@ const Tickets = ({promiseData}) => {
         </h1>
         <div className="grid grid-cols-2">
           {tickets.map((ticket) => (
-            <Ticket key={ticket.id} ticket={ticket}></Ticket>
+            <Ticket key={ticket.id} ticket={ticket} updateProgress={updateProgress} handleStatus={handleStatus}></Ticket>
           ))}
         </div>
       </div>

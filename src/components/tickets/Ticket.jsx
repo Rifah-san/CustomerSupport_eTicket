@@ -1,11 +1,13 @@
-import React from "react";
+
 import "./../../App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarDays as calendar } from "@fortawesome/free-regular-svg-icons";
 
-const Ticket = ({ ticket }) => {
+const Ticket = ({ ticket , updateProgress, handleStatus}) => {
     const handleCardClick = () =>{
         alert('Added To Task Status Section.');
+        updateProgress();
+        handleStatus(ticket.id);
     } 
   return (
     <div onClick={handleCardClick} className="card flex flex-col align-middle gap-3 shadow-md">
