@@ -6,7 +6,7 @@
     "customer": "Global Mart",
     "priority": "Critical",
     "status": "In Progress",
-    "createdAt": "2026-03-04T08:30:00Z"
+    "createdAt": "2026-03-04"
   },
   {
     "id": "TIC-102",
@@ -15,7 +15,7 @@
     "customer": "TechFlow Inc.",
     "priority": "High",
     "status": "Open",
-    "createdAt": "2026-03-04T09:15:00Z"
+    "createdAt": "2026-03-04"
   },
   {
     "id": "TIC-103",
@@ -24,7 +24,7 @@
     "customer": "Internal",
     "priority": "Low",
     "status": "Closed",
-    "createdAt": "2026-03-01T14:00:00Z"
+    "createdAt": "2026-03-01"
   },
   {
     "id": "TIC-104",
@@ -33,7 +33,7 @@
     "customer": "Creative Agency",
     "priority": "Medium",
     "status": "Open",
-    "createdAt": "2026-03-04T10:45:00Z"
+    "createdAt": "2026-03-04"
   },
   {
     "id": "TIC-105",
@@ -42,7 +42,7 @@
     "customer": "Internal",
     "priority": "Medium",
     "status": "In Progress",
-    "createdAt": "2026-03-03T16:20:00Z"
+    "createdAt": "2026-03-03"
   },
   {
     "id": "TIC-106",
@@ -51,7 +51,7 @@
     "customer": "DataViz Corp",
     "priority": "High",
     "status": "Open",
-    "createdAt": "2026-03-04T11:05:00Z"
+    "createdAt": "2026-03-04"
   },
   {
     "id": "TIC-107",
@@ -60,7 +60,7 @@
     "customer": "Standard User Base",
     "priority": "High",
     "status": "In Progress",
-    "createdAt": "2026-03-04T12:00:00Z"
+    "createdAt": "2026-03-04"
   },
   {
     "id": "TIC-108",
@@ -69,7 +69,7 @@
     "customer": "Marketing Team",
     "priority": "Low",
     "status": "Closed",
-    "createdAt": "2026-02-28T09:00:00Z"
+    "createdAt": "2026-02-28"
   },
   {
     "id": "TIC-109",
@@ -78,7 +78,7 @@
     "customer": "Operations Dept",
     "priority": "Medium",
     "status": "Open",
-    "createdAt": "2026-03-04T13:30:00Z"
+    "createdAt": "2026-03-04"
   },
   {
     "id": "TIC-110",
@@ -87,7 +87,7 @@
     "customer": "Internal",
     "priority": "Critical",
     "status": "In Progress",
-    "createdAt": "2026-03-04T14:10:00Z"
+    "createdAt": "2026-03-04"
   },
   {
     "id": "TIC-111",
@@ -96,7 +96,7 @@
     "customer": "Logistics Pro",
     "priority": "Medium",
     "status": "Closed",
-    "createdAt": "2026-03-02T10:00:00Z"
+    "createdAt": "2026-03-02"
   },
   {
     "id": "TIC-112",
@@ -105,6 +105,6 @@
     "customer": "TechFlow Inc.",
     "priority": "Low",
     "status": "Open",
-    "createdAt": "2026-03-04T15:45:00Z"
+    "createdAt": "2026-03-04"
   }
 ]
