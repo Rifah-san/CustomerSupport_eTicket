@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
       <div>
-        <footer class="footer sm:footer-horizontal bg-black text-white py-10 px-20 grid grid-cols-5 ">
+        <footer class="footer  bg-black text-white py-10 px-20 grid lg:grid-cols-5  grid-cols-1">
           <nav>
             <h6 class="footer-title">CS — Ticket System</h6>
             <p>

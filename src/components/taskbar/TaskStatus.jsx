@@ -8,8 +8,8 @@ const TaskStatus = ({ promiseData, card, handleResolved}) => {
   }
   const tickets = use(promiseData);
   return (
-    <div className="p-10">
-      <h1 className="py-10 font-semibold text-2xl text-gray-700">
+    <div className="lg:w-2/3 w-full text-center">
+      <h1 className="lg:py-10 py-5 font-semibold text-2xl text-gray-700">
         Task Status
       </h1>
       <div>
@@ -22,7 +22,7 @@ const TaskStatus = ({ promiseData, card, handleResolved}) => {
             );
 
             return matchedTicket ? (
-              <div key={matchedTicket.id} className="shadow-md rounded-sm flex flex-col gap-3 p-3">
+              <div key={matchedTicket.id} className="shadow-md rounded-sm flex flex-col gap-3 p-3 justify-center">
                 <h1 className="text-lg font-semibold text-gray-600">{matchedTicket.title}</h1>
                 <button onClick={handleTaskBtn} className="btn bg-green-500 text-white border-0">Complete</button>
               </div>

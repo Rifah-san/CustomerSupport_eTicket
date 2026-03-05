@@ -31,12 +31,12 @@ function App() {
   return (
     <>
       <Nav></Nav>
-      <div className="flex align-middle justify-center w-full gap-5 px-35 py-10">
+      <div className="flex lg:flex-row align-middle justify-center w-full gap-3 lg:px-35 py-10 flex-col p-5">
         <ProgressBanner progress={progress}></ProgressBanner>
         <ResolvedBanner resolved={resolved}></ResolvedBanner>
       </div>
-      <div className="flex justify-evenly gap-3">
-        <div className="w-2/3">
+      <div className="flex lg:flex-row justify-evenly align-middle gap-3 flex-col-reverse">
+        <div className="lg:w-2/3 w-full">
           <Suspense fallback="loading">
             <Tickets
               updateProgress={updateProgress}
@@ -45,7 +45,7 @@ function App() {
             ></Tickets>
           </Suspense>
         </div>
-        <div>
+        <div className="flex lg:flex-col flex-row lg:justify-normal lg:gap-10 gap-10 justify-between lg:py-10 lg:px-5 px-5 lg:w-1/3 w-full">
           <TaskStatus
             promiseData={promiseData}
             card={card}
