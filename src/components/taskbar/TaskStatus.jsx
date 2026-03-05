@@ -1,9 +1,10 @@
 import React from "react";
 import { use } from "react";
 
-const TaskStatus = ({ promiseData, card }) => {
+const TaskStatus = ({ promiseData, card, handleResolved}) => {
   const handleTaskBtn = () =>{
-    alert("Task Completed!")
+    alert("Task Completed!");
+    handleResolved();
   }
   const tickets = use(promiseData);
   return (

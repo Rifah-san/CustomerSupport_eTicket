@@ -19,17 +19,21 @@ function App() {
     setProgress(newProgress);
   };
   //state to add card list in status section
-  const [card,setCard] = useState([]);
-  const handleStatus =(cardID)=>{
-    const newCard = [...card,cardID];
+  const [card, setCard] = useState([]);
+  const handleStatus = (cardID) => {
+    const newCard = [...card, cardID];
     setCard(newCard);
-  }
+  };
+  const [resolved, setResolved] = useState(0);
+  const handleResolved = () => {
+    setResolved(resolved);
+  };
   return (
     <>
       <Nav></Nav>
       <div className="flex align-middle justify-center w-full gap-5 px-35 py-10">
         <ProgressBanner progress={progress}></ProgressBanner>
-        <ResolvedBanner></ResolvedBanner>
+        <ResolvedBanner resolved={resolved}></ResolvedBanner>
       </div>
       <div className="flex justify-evenly gap-3">
         <div className="w-2/3">
@@ -37,12 +41,16 @@ function App() {
             <Tickets
               updateProgress={updateProgress}
               promiseData={promiseData}
-              handleStatus ={handleStatus}
+              handleStatus={handleStatus}
             ></Tickets>
           </Suspense>
         </div>
         <div>
-          <TaskStatus promiseData={promiseData} card={card}></TaskStatus>
+          <TaskStatus
+            promiseData={promiseData}
+            card={card}
+            handleResolved={handleResolved}
+          ></TaskStatus>
           <ResolvedTask></ResolvedTask>
         </div>
       </div>
